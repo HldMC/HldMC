@@ -1,0 +1,115 @@
+      <!-- p5 -->
+      <div id="work_page">
+        <div id="work_page_title"  class="title"><h2>Work Experience</h2></div>
+              <!-- work 1 -->
+              <div id="work_1" class="work">
+                <div id="work_1_img_box">
+                  <a target="_blank" href="https://www.ai-guided.com/home"><img
+                    id="aiguided_logo"
+                    class="company_logo"
+                    src="./img/aiguided_logo.jpg"
+                    alt="aiguided_logo"
+                  />
+                  </a>
+                  <p>AI GUIDED LIMITED</p>
+                </div>
+                <div class="work_hr"></div>
+                <div id="work_1_text_box">
+                  <p class="date">January 2022 to April 2022</p>
+                  <p class="position">Internship</p>
+                  <p class="work_detail">
+                    Using python to complete projexts related to deep learning. The project is divided into two main parts. Data collection and machine learning. First I need to write a program to automatically collect the data required for machine learning. Due to a large amount of data necessary for machine learning, manual data collection is not possible.
+                  </p>
+                  <br>
+                  <p class="project">Project:</p>
+                  <p class="project">Machine Vision-based Pedestrian Precinct Detection Deployed on Edge Computer for Potential Applications in Wearable Devices</p>
+                  <button id="project_details_button"><i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+            </div>
+
+  <!-- work 1 project -->
+        <div id="project_part">
+            <div id="project_title" class="project_content" style="opacity: 0;">
+              <p>Company: AI GUIDED LIMITED</p>
+              <p>Project: Machine Vision-based Pedestrian Precinct Detection Deployed on Edge Computer for Potential Applications in Wearable Devices</p>
+          </div>
+            <div id="work_1_img_box" class="project_content" style="opacity: 0;">
+                <img id="edge_img" src="./img/edge.png" alt="edge_img">
+                <img id="path" src="./img/demo.gif" alt="demo_img">
+            </div>
+            <div id="project_hr" class="project_content" class="work_hr" style="opacity: 0;"></div>
+            <div id="work_1_text_box" class="project_content" style="opacity: 0;">
+              <p>My program identifies the path of the video, the noise, and where the user should go by the conditions I add. Then it saves the photos and data of each frame.</p>
+              <p>Since we cannot add conditions and rules for all cases, we need to use machine learning to compensate for this shortcoming.</p>
+              <p>Finally, the collected data is put into the neural network for training by Transfer learning. The blue line in the above GIF is the result of the neural network estimation. It represents the path that the user can walk.</p>
+              </div>
+          </div>
+
+        <!-- work 2 -->
+        <div id="work_2" class="work">
+          <div id="work_2_img_box">
+            <a target="_blank" href="https://www.circlek.hk/">
+              <div id="ok_box">
+                <img
+                  id="ok_logo"
+                  class="company_logo"
+                  src="./img/ok_logo.png"
+                  alt="ok_logo"/></a></div>
+            <p>CIRCLE K</p>
+          </div>
+          <div class="work_hr"></div>
+          <div id="work_2_text_box">
+            <p class="date">April 2021 to December 2021</p>
+            <p class="position">Shop assistant</p>
+            <p class="work_detail">
+              Communicating, selling, and promoting products
+            </p>
+          </div>
+        </div>
+
+        <!-- work 3 -->
+        <div id="work_3" class="work">
+          <div id="work_3_img_box">
+            <a target="_blank" href="http://www.pizzamonster.hk/">
+              <img
+              id="pizzamonster_logo"
+              class="company_logo"
+              src="./img/pizzamonster_logo.jpg"
+              alt="pizzamonster_logo"
+            />
+            </a>
+            <p>PIZZA MONSTER</p>
+          </div>
+          <div class="work_hr"></div>
+          <div id="work_3_text_box">
+            <p class="date">October 2020 to May 2021</p>
+            <p class="position">Kitchen</p>
+            <p class="work_detail">
+              Responsible for the operation of the kitchen
+            </p>
+          </div>
+        </div>
+
+                <!-- work 4 -->
+        <div id="work_4" class="work">
+          <div id="work_4_img_box">
+            <a target="_blank" href="https://www.dr-kong.com.hk/">
+              <img
+              id="drkong_logo"
+              class="company_logo"
+              src="./img/drkong_logo.png"
+              alt="drkong_logo"
+            />
+            </a>
+            <p>DR. KONG</p>
+          </div>
+          <div class="work_hr"></div>
+          <div id="work_3_text_box">
+            <p class="date">Summer 2019</p>
+            <p class="position">Salesperson</p>
+            <p class="work_detail">
+              Mainly communicate with customers and provide good services
+            </p>
+          </div>
+        </div>
+      </div>

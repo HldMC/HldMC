@@ -1,0 +1,112 @@
+        <!-- work 1 -->
+                <div id="work_1" class="work">
+                    <div id="work_1_img_box">
+                      <a target="_blank" href="https://www.ai-guided.com/home"><img
+                        id="aiguided_logo"
+                        class="company_logo"
+                        src="./img/aiguided_logo.jpg"
+                        alt="aiguided_logo"
+                      />
+                      </a>
+                      <p>領航智能有限公司</p>
+                    </div>
+                    <div class="work_hr"></div>
+                    <div id="work_1_text_box">
+                      <p class="date">2022 年 1 月至 2022 年 4 月</p>
+                      <p class="position">實習生</p>
+                      <p class="work_detail">
+                          使用Python完成機械學習相關項目。該項目分為兩個主要部分。數據收集和機器學習。數據收集方面，我需要編寫一個程序來自動收集機器學習所需的數據。由於機器學習需要大量數據，因此無法手動收集數據。</p>
+                      <br>
+                      <p class="project">項目：</p>
+                      <p class="project">Machine Vision-based Pedestrian Precinct Detection Deployed on Edge Computer for Potential Applications in Wearable Devices</p>
+                      <button id="project_details_button"><i class="fa-solid fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+      <!-- work 1 project -->
+      <div id="project_part">
+          <div id="project_title" class="project_content" style="opacity: 0;">
+            <p>公司： 領航智能有限公司</p>
+            <p>項目： Machine Vision-based Pedestrian Precinct Detection Deployed on Edge Computer for Potential Applications in Wearable Devices</p>
+        </div>
+          <div id="work_1_img_box" class="project_content" style="opacity: 0;">
+              <img id="edge_img" src="./img/edge.png" alt="edge_img">
+              <img id="path" src="./img/demo.gif" alt="demo_img">
+          </div>
+          <div id="project_hr" class="project_content" class="work_hr" style="opacity: 0;"></div>
+          <div id="work_1_text_box" class="project_content" style="opacity: 0;">
+              <p>我的程序根據我添加的條件識別影片中的路徑、雜訊、以及用戶應該前往的位置。然後保存每一幀的照片和數據。</p>
+              <p>由於我們無法為所有情況添加條件和規則，因此我們需要使用機器學習來彌補這個缺點。</p>
+              <p>最後通過遷移學習將收集到的數據放入神經網絡進行訓練。上面 GIF 中的藍線是神經網絡估計的結果。它代表用戶可以行走的路線。</p>
+          </div>
+        </div>
+        
+
+        <!-- work 2 -->
+        <div id="work_2" class="work">
+          <div id="work_2_img_box">
+            <a target="_blank" href="https://www.circlek.hk/">
+              <div id="ok_box">
+                <img
+                  id="ok_logo"
+                  class="company_logo"
+                  src="./img/ok_logo.png"
+                  alt="ok_logo"/></a></div>
+            <p>OK便利店</p>
+          </div>
+          <div class="work_hr"></div>
+          <div id="work_2_text_box">
+            <p class="date">2021 年 4 月至 2021 年 12 月</p>
+            <p class="position">售貨員</p>
+            <p class="work_detail">
+                和客戶溝通、銷售和推廣產品
+            </p>
+          </div>
+        </div>
+
+        <!-- work 3 -->
+        <div id="work_3" class="work">
+          <div id="work_3_img_box">
+            <a target="_blank" href="http://www.pizzamonster.hk/">
+              <img
+              id="pizzamonster_logo"
+              class="company_logo"
+              src="./img/pizzamonster_logo.jpg"
+              alt="pizzamonster_logo"
+            />
+            </a>
+            <p>薄餅怪獸</p>
+          </div>
+          <div class="work_hr"></div>
+          <div id="work_3_text_box">
+            <p class="date">2020 年 10 月至 2021 年 5 月</p>
+            <p class="position">廚房</p>
+            <p class="work_detail">
+                負責廚房的運作
+            </p>
+          </div>
+        </div>
+
+                <!-- work 4 -->
+        <div id="work_4" class="work">
+          <div id="work_4_img_box">
+            <a target="_blank" href="https://www.dr-kong.com.hk/">
+              <img
+              id="drkong_logo"
+              class="company_logo"
+              src="./img/drkong_logo.png"
+              alt="drkong_logo"
+            />
+            </a>
+            <p>DR. KONG</p>
+          </div>
+          <div class="work_hr"></div>
+          <div id="work_3_text_box">
+            <p class="date">2019 年暑假</p>
+            <p class="position">銷售員</p>
+            <p class="work_detail">
+                主要與客戶溝通，提供良好的服務
+            </p>
+          </div>
+        </div>
+      </div>
